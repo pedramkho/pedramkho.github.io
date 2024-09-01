@@ -1,8 +1,7 @@
 // Resume styles
 // ---------------------------------------/
 
-// util
-
+// Utility styles
 .section-header {
   @include section_border;
   margin-bottom: 1.5rem;
@@ -10,21 +9,21 @@
   h2 {
     @include sans;
     font-weight: 900;
-    font-size: 1.75rem;
+    font-size: 1.75rem; // Adjusted for uniformity
     letter-spacing: -.05rem;
     margin: 0;
   }
 }
 
-// page header styles
-
-.page-header { padding: 1.5rem 0;
+// Page header styles
+.page-header {
+  padding: 1.5rem 0;
 
   .avatar {
     width: 350px;
     max-width: 100%;
     overflow: hidden;
-    @include border-radius(350px);
+    @include border-radius(50%); // Changed for better clarity
     margin: 0 auto;
     display: block;
   }
@@ -43,6 +42,7 @@
     @include sans;
     text-align: center;
   }
+
   .header-contact-info p a {
     color: inherit;
   }
@@ -56,7 +56,7 @@
     .header-title {
       @include sans;
       font-weight: 300;
-      font-size: 1.75rem;
+      font-size: 1.75rem; // Uniform with other h2 elements
       line-height: 2rem;
       letter-spacing: -.05rem;
       text-align: center;
@@ -70,10 +70,13 @@
   }
 
   .executive-summary {
-    @include media_larger_than_mobile { font-size: 1.125rem; }
+    @include media_larger_than_mobile {
+      font-size: 1.125rem;
+    }
   }
 }
 
+// Icon links
 .icon-links {
   margin: 0;
   padding: 0;
@@ -95,7 +98,8 @@
     margin-left: 5px;
   }
 
-  .icon-link { display: inline-block;
+  .icon-link {
+    display: inline-block;
 
     &:hover .icon path {
       fill: #333;
@@ -108,6 +112,7 @@
   }
 }
 
+// Contact button
 .contact-button {
   @include border-radius(3px);
   background-color: #efefef;
@@ -127,20 +132,23 @@
     color: #fff;
   }
 
-  &.not-looking { width: 400px; }
+  &.not-looking {
+    width: 400px;
+  }
 }
 
-// resume content styles
-
+// Resume content styles
 .content-section {
   margin: 0 0 3rem;
 
-  .resume-item { margin-bottom: 2rem; }
+  .resume-item {
+    margin-bottom: 2rem;
+  }
 
   .resume-item-title {
     @include sans_bold;
     margin: 0 0 .75rem;
-    font-size: 1.2rem;
+    font-size: 1.2rem; // Adjusted for consistency
     letter-spacing: -.05rem;
     line-height: 1;
   }
@@ -160,7 +168,7 @@
   .resume-item-copy,
   .resume-item-list {
     a {
-      font-size: 0.5rem;
+      font-size: 0.875rem; // Adjusted to be more uniform and readable
       color: #333;
       text-decoration: none;
       border-bottom: 1px solid;
@@ -172,11 +180,12 @@
     }
   }
 
-  .resume-item-copy { margin: .75rem 0 0; }
+  .resume-item-copy {
+    margin: .75rem 0 0;
+  }
 }
 
-// footer styles
-
+// Footer styles
 .page-footer {
   border-top: 4px solid #c7c7c7;
   padding-top: 1.5rem;
@@ -195,27 +204,52 @@
   }
 }
 
-.print-only { display: none !important }
+// Print-only styles
+.print-only {
+  display: none !important;
+}
 
 @media print {
-  .no-print { display: none !important }
-  .print-only { display: block !important }
-  body { font-size: 12px; line-height: 1rem; }
-  .page-header { padding: 1rem 0 .2rem;
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  body {
+    font-size: 12px;
+    line-height: 1rem;
+  }
+
+  .page-header {
+    padding: 1rem 0 .2rem;
+
     .header-name {
       @include sans_bold;
       font-size: 2rem;
       margin: 0 0 .2rem;
     }
   }
+
   .section-header {
     @include section_border_thin;
     margin-bottom: 1rem;
-    h2 { font-size: 1.2rem; line-height: 1.5rem; }
+
+    h2 {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+    }
   }
+
   .content-section {
     margin: 0 0 1rem;
-    .resume-item { margin-bottom: 1rem; }
+
+    .resume-item {
+      margin-bottom: 1rem;
+    }
+
     .resume-item-title {
       font-size: 16px;
       line-height: .7em;
@@ -225,7 +259,7 @@
       font-size: 12px;
       margin: 0 0 .75rem;
       line-height: .7em;
-      font-style:italic;
+      font-style: italic;
 
       &.award-title {
         font-size: 11px;
