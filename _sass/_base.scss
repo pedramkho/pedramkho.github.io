@@ -1,46 +1,72 @@
 // Base styles
 // ---------------------------------------/
+
+// Apply box-sizing to all elements for consistent layout behavior
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+// Set background color for the HTML document
 html {
-  background: $white;
+  background: $white; // Ensure $white is defined globally
 }
 
-body{
-  @include serif;
-  color: $text_color;
+// Body styles
+body {
+  @include serif; // Ensure serif font mixin is defined globally
+  color: $text_color; // Ensure $text_color is defined globally
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.5; // Optimal line height for readability
 }
 
+// Wrapper styles
 .wrapper:before,
-.wrapper:after { content:""; display:table; }
-.wrapper:after { clear: both; }
+.wrapper:after {
+  content: "";
+  display: table; // Creates a block formatting context
+}
+
+.wrapper:after {
+  clear: both; // Clears floats
+}
+
 .wrapper {
-  max-width: 728px;
-  padding: 0 24px;
-  margin: 0 auto;
-  zoom: 1;
+  max-width: 728px; // Constrains content to a readable width
+  padding: 0 24px; // Adds padding inside the wrapper
+  margin: 0 auto; // Centers the wrapper
+  zoom: 1; // Fixes layout issues in older versions of IE
 }
 
-// clearfix (now called group,
-// via http://css-tricks.com/snippets/css/clear-fix/)
+// Clearfix styles (also known as group)
+// ---------------------------------------/
+// Clears floats and triggers hasLayout for IE6/7
 .group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both; }
-.group { zoom:1; /* For IE 6/7 (trigger hasLayout) */ }
-
-::-moz-selection {
-    background: rgba(51,51,51,.8);
-    color: #fff;
-    text-shadow: none;
+.group:after {
+  content: "";
+  display: table; // Creates a block formatting context
 }
+
+.group:after {
+  clear: both; // Clears floats
+}
+
+.group {
+  zoom: 1; // Triggers hasLayout in IE6/7
+}
+
+// Text Selection Styles
+// ---------------------------------------/
+// Customizes the background and text color for selected text
+::-moz-selection {
+  background: rgba(51, 51, 51, 0.8);
+  color: #fff;
+  text-shadow: none;
+}
+
 ::selection {
-    background: rgba(51,51,51,.8);
-    color: #fff;
-    text-shadow: none;
+  background: rgba(51, 51, 51, 0.8);
+  color: #fff;
+  text-shadow: none;
 }

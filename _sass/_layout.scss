@@ -1,35 +1,42 @@
 // Layout styles
 // ---------------------------------------/
+// Based on Primer's layout system
+// Source: https://github.com/primer/primer/blob/master/scss/_layout.scss
 
-// Layout from Primer (https://github.com/primer/primer/blob/master/scss/_layout.scss)
-
-// Fixed-width, centered column for site content.
+// Fixed-width, centered container for site content
 .container {
-  width: $container-width;
+  width: $container-width; // Global variable defining container width
   margin-right: auto;
   margin-left: auto;
-  @include clearfix;
+  @include clearfix; // Mixin to clear floats (ensure it's defined globally)
 }
 
-// Grid system
-//
-// Create rows with `.columns` to clear the floated columns and outdent the
-// padding on `.column`s with negative margin for alignment.
+// Grid System
+// ---------------------------------------/
+// Use .columns to create rows and clear floated columns with clearfix.
+// Negative margins are used for proper alignment of .column padding.
 
 .columns {
-  margin-right: -$grid-gutter;
+  margin-right: -$grid-gutter; // Outdents padding for alignment
   margin-left: -$grid-gutter;
-  @include clearfix;
+  @include clearfix; // Clear floats within columns
 }
 
-// Base class for every column (requires a column width from below)
+// Base Class for Columns
+// ---------------------------------------/
+// Applies padding and float properties to each column, 
+// based on the grid gutter width.
+
 .column {
   float: left;
   padding-right: $grid-gutter;
   padding-left: $grid-gutter;
 }
 
-// Column widths
+// Column Widths
+// ---------------------------------------/
+// Utility classes for defining column widths using percentages.
+
 .one-third {
   width: 33.333333%;
 }
@@ -58,17 +65,24 @@
   width: 80%;
 }
 
-// Single column hack
+// Single Column Layout
+// ---------------------------------------/
+// Applies standard padding for single-column layouts.
+
 .single-column {
   padding-right: $grid-gutter;
   padding-left: $grid-gutter;
 }
 
-// Equal width columns via table sorcery.
+// Equal Width Columns
+// ---------------------------------------/
+// Uses table layout for equal-width columns, ideal for cases where
+// columns need to have the same width regardless of content.
+
 .table-column {
-  display: table-cell;
-  width: 1%;
+  display: table-cell; // Ensures equal width for each column
+  width: 1%; // Allows columns to expand equally based on content
   padding-right: $grid-gutter;
   padding-left: $grid-gutter;
-  vertical-align: top;
+  vertical-align: top; // Aligns content to the top of each column
 }
