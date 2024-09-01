@@ -8,7 +8,7 @@
 
   h2 {
     @include sans;
-    font-weight: 700; // Adjusted to a consistent font weight
+    font-weight: 700; // Consistent font weight
     font-size: 1.75rem; // Uniform font size
     letter-spacing: -.05rem;
     margin: 0;
@@ -21,10 +21,11 @@
   padding: 1.5rem 0;
 
   .avatar {
-    width: 350px;
+    width: 200px; // Adjusted size for a more natural look
+    height: 200px; // Ensure equal width and height to prevent oval shape
     max-width: 100%;
     overflow: hidden;
-    @include border-radius(50%); // Rounded avatar for better clarity
+    @include border-radius(50%); // Fully rounded avatar
     margin: 0 auto;
     display: block;
   }
@@ -32,10 +33,10 @@
   .header-name {
     @include sans;
     font-size: 2.5rem; // Slightly smaller for a more natural look
-    font-weight: 700; // Adjusted to a consistent font weight
+    font-weight: 700; // Consistent font weight
     text-align: center;
     letter-spacing: -.10rem;
-    line-height: 1;
+    line-height: 1.2; // Slightly increased for better readability
     margin: 1rem 0 0;
     text-transform: none; // Ensure text is non-caps
   }
@@ -43,6 +44,7 @@
   .header-contact-info {
     @include sans;
     text-align: center;
+    margin-top: 0.5rem; // Added margin for better spacing
     text-transform: none; // Ensure text is non-caps
   }
 
@@ -77,6 +79,7 @@
   .executive-summary {
     @include media_larger_than_mobile {
       font-size: 1.125rem;
+      margin-top: 1rem; // Added margin for spacing
       text-transform: none; // Ensure text is non-caps
     }
   }
