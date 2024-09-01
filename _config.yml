@@ -21,7 +21,7 @@ resume_contact_telephone:       "000"
 resume_contact_address:         "000"
 
 resume_header_contact_info:     ""
-display_header_contact_info:    "true"
+display_header_contact_info:    "false"
 
 resume_header_intro: "<p>Hi! I'm Pedram Khorsandi, a Ph.D. student at Mila, supervised by Prof. Simon Lacoste-Julien since 2022. My research focuses on Optimization in Federated Learning and Performative Prediction.</p><p>Previously, I completed my undergraduate studies at Sharif University of Technology in Computer Science and Engineering.</p>"
 
@@ -37,8 +37,8 @@ resume_looking_for_work:        "no"
 resume_section_education:       true
 resume_section_projects:        true
 resume_section_skills:          true
-resume_section_recognition:     true
-resume_section_links:           true
+# resume_section_recognition:     true
+# resume_section_links:           true
 resume_section_associations:    true
 resume_section_interests:       true
 
