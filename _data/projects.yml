@@ -6,7 +6,7 @@
   # role: Co-Author
   duration: 2022
   url: "https://www.sciencedirect.com/science/article/pii/S0968090X22001437"
-  authors: "Saadatnejad S., Bahari M., Khorsandi P.*, Saneian M.*, Moosavi-Dezfooli M., Alahi A."
+  # authors: "Saadatnejad S., Bahari M., Khorsandi P.*, Saneian M.*, Moosavi-Dezfooli M., Alahi A."
   description: Published in Elsevier Volume 141. This paper examines the effectiveness of socially-aware trajectory prediction models, evaluating their true awareness of social dynamics.
 
 # Do explanations explain the model? Model knows best
@@ -14,6 +14,6 @@
   # role: Co-Author
   duration: 2022
   url: "https://arxiv.org/abs/2203.02269"
-  authors: "Khakzar A.*, Khorsandi P.*, Nobahari R.*, Navab N."
+  # authors: "Khakzar A.*, Khorsandi P.*, Nobahari R.*, Navab N."
   description: Presented at CVPR 2022, this paper explores the reliability of explanation methods for neural network decisions and proposes a benchmark for evaluating these methods.
 
