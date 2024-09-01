@@ -5,12 +5,12 @@
 // HTML and Body
 // ---------------------------------------/
 /**
- * 1. Set default font family to sans-serif.
+ * 1. Set default font family to Arial, sans-serif for consistency.
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
  html {
-  font-family: sans-serif; /* 1 */
+  font-family: 'Arial', sans-serif; /* 1 */
   text-size-adjust: 100%; /* 2 */
 }
 
@@ -81,6 +81,8 @@ template {
  */
 a {
   background-color: transparent;
+  text-transform: none; /* Ensure links are non-caps */
+  font-family: 'Arial', sans-serif; /* Ensure consistent font */
 }
 
 /**
@@ -123,6 +125,8 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  text-transform: none; /* Ensure headings are non-caps */
+  font-family: 'Arial', sans-serif; /* Ensure consistent font */
 }
 
 /**
@@ -226,6 +230,8 @@ textarea {
   color: inherit; /* 1 */
   font: inherit; /* 2 */
   margin: 0; /* 3 */
+  text-transform: none; /* Ensure form elements are non-caps */
+  font-family: 'Arial', sans-serif; /* Ensure consistent font */
 }
 
 /**

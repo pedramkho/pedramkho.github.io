@@ -31,6 +31,10 @@
   float: left;
   padding-right: $grid-gutter;
   padding-left: $grid-gutter;
+  font-family: 'Arial', sans-serif; // Ensure consistent font
+  text-transform: none; // Ensure text is non-caps
+  font-size: 1rem; // Set a natural font size
+  line-height: 1.5; // Maintain readability
 }
 
 // Column Widths
@@ -72,6 +76,10 @@
 .single-column {
   padding-right: $grid-gutter;
   padding-left: $grid-gutter;
+  font-family: 'Arial', sans-serif; // Ensure consistent font
+  text-transform: none; // Ensure text is non-caps
+  font-size: 1rem; // Set a natural font size
+  line-height: 1.5; // Maintain readability
 }
 
 // Equal Width Columns
@@ -85,4 +93,8 @@
   padding-right: $grid-gutter;
   padding-left: $grid-gutter;
   vertical-align: top; // Aligns content to the top of each column
+  font-family: 'Arial', sans-serif; // Ensure consistent font
+  text-transform: none; // Ensure text is non-caps
+  font-size: 1rem; // Set a natural font size
+  line-height: 1.5; // Maintain readability
 }

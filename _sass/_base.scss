@@ -15,10 +15,11 @@ html {
 
 // Body styles
 body {
-  @include serif; // Ensure serif font mixin is defined globally
+  font-family: 'Arial', sans-serif; // Use a consistent sans-serif font
   color: $text_color; // Ensure $text_color is defined globally
-  font-size: 16px;
+  font-size: 16px; // Base font size for natural text appearance
   line-height: 1.5; // Optimal line height for readability
+  text-transform: none; // Ensure all text is non-caps
 }
 
 // Wrapper styles

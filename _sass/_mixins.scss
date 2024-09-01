@@ -1,20 +1,22 @@
 // Mixins
 // ---------------------------------------/
 
+// Border Radius Mixin
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
   border-radius: $radius;
 }
 
+// Transition Mixin
 @mixin transition($value) {
   -webkit-transition: $value;
   -moz-transition: $value;
   transition: $value;
 }
 
-// Clearfix
-//
+// Clearfix Mixin
+// ---------------------------------------/
 // Clears floats via mixin (avoid using as a class).
 
 @mixin clearfix {
@@ -30,7 +32,9 @@
   }
 }
 
-// media querie tools
+// Media Query Tools
+// ---------------------------------------/
+// Utility mixins for responsive design.
 
 @mixin media_max($screen_width) {
   @media (max-width: $screen_width) { @content; }
@@ -48,10 +52,12 @@
   @media (max-width: 600px) { @content; }
 }
 
-// type utilities
+// Type Utilities
+// ---------------------------------------/
+// Consistent typography settings across the site.
 
 @mixin sans {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arial", sans-serif; // Unified font for consistency
 }
 
 @mixin sans_light {
@@ -75,7 +81,7 @@
 }
 
 @mixin serif {
-  font-family: "Lora", "Minion Pro", Palatino, Georgia, serif;
+  font-family: "Lora", "Georgia", serif; // Simplified and consistent serif stack
 }
 
 @mixin serif_regular {
@@ -88,7 +94,9 @@
   font-weight: 700;
 }
 
-// layout
+// Layout Utilities
+// ---------------------------------------/
+// Border styles for section dividers.
 
 @mixin section_border {
   border-top: 4px solid #c7c7c7;

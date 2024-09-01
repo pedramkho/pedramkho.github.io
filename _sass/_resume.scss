@@ -8,10 +8,11 @@
 
   h2 {
     @include sans;
-    font-weight: 900;
-    font-size: 1.75rem; // Adjusted for uniformity
+    font-weight: 700; // Adjusted to a consistent font weight
+    font-size: 1.75rem; // Uniform font size
     letter-spacing: -.05rem;
     margin: 0;
+    text-transform: none; // Ensure text is non-caps
   }
 }
 
@@ -23,28 +24,31 @@
     width: 350px;
     max-width: 100%;
     overflow: hidden;
-    @include border-radius(50%); // Changed for better clarity
+    @include border-radius(50%); // Rounded avatar for better clarity
     margin: 0 auto;
     display: block;
   }
 
   .header-name {
     @include sans;
-    font-size: 3rem;
-    font-weight: 900;
+    font-size: 2.5rem; // Slightly smaller for a more natural look
+    font-weight: 700; // Adjusted to a consistent font weight
     text-align: center;
     letter-spacing: -.10rem;
     line-height: 1;
     margin: 1rem 0 0;
+    text-transform: none; // Ensure text is non-caps
   }
 
   .header-contact-info {
     @include sans;
     text-align: center;
+    text-transform: none; // Ensure text is non-caps
   }
 
   .header-contact-info p a {
     color: inherit;
+    text-transform: none; // Ensure links are non-caps
   }
 
   .title-bar {
@@ -61,6 +65,7 @@
       letter-spacing: -.05rem;
       text-align: center;
       margin: 0 0 .5rem;
+      text-transform: none; // Ensure text is non-caps
 
       @include media_larger_than_mobile {
         float: left;
@@ -72,6 +77,7 @@
   .executive-summary {
     @include media_larger_than_mobile {
       font-size: 1.125rem;
+      text-transform: none; // Ensure text is non-caps
     }
   }
 }
@@ -126,6 +132,7 @@
   color: #333;
   line-height: 55px;
   @include transition(all .2s ease);
+  text-transform: none; // Ensure text is non-caps
 
   &:hover {
     background-color: #333;
@@ -148,15 +155,17 @@
   .resume-item-title {
     @include sans_bold;
     margin: 0 0 .75rem;
-    font-size: 1.2rem; // Adjusted for consistency
+    font-size: 1.2rem; // Uniform font size for titles
     letter-spacing: -.05rem;
     line-height: 1;
+    text-transform: none; // Ensure text is non-caps
   }
 
   .resume-item-details {
     font-size: 1.125rem;
     margin: 0 0 .75rem;
     line-height: 1;
+    text-transform: none; // Ensure text is non-caps
 
     &.award-title {
       font-size: 1rem;
@@ -168,7 +177,7 @@
   .resume-item-copy,
   .resume-item-list {
     a {
-      font-size: 0.875rem; // Adjusted to be more uniform and readable
+      font-size: 0.875rem; // Uniform font size for links
       color: #333;
       text-decoration: none;
       border-bottom: 1px solid;
@@ -182,6 +191,7 @@
 
   .resume-item-copy {
     margin: .75rem 0 0;
+    text-transform: none; // Ensure text is non-caps
   }
 }
 
@@ -196,6 +206,7 @@
     margin: 0;
     font-size: .875rem;
     color: #999;
+    text-transform: none; // Ensure text is non-caps
 
     > a {
       font-weight: 700;
