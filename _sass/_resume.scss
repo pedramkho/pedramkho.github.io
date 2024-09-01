@@ -31,7 +31,7 @@
   }
 
   .header-name {
-    @include sans;
+    @include sans; // Use your preferred older font
     font-size: 2.5rem; // Slightly smaller for a more natural look
     font-weight: 700; // Consistent font weight
     text-align: center;
@@ -42,7 +42,7 @@
   }
 
   .header-contact-info {
-    @include sans;
+    @include sans; // Use your preferred older font
     text-align: center;
     margin-top: 0.5rem; // Added margin for better spacing
     text-transform: none; // Ensure text is non-caps
@@ -60,7 +60,7 @@
     @include clearfix;
 
     .header-title {
-      @include sans;
+      @include sans; // Use your preferred older font
       font-weight: 300;
       font-size: 1.75rem; // Uniform with other h2 elements
       line-height: 2rem;
@@ -131,7 +131,7 @@
   margin: 1.5rem auto;
   width: 220px;
   font-size: 1.375rem;
-  @include sans_light;
+  @include sans_light; // Use your preferred older font
   color: #333;
   line-height: 55px;
   @include transition(all .2s ease);
@@ -156,7 +156,7 @@
   }
 
   .resume-item-title {
-    @include sans_bold;
+    @include sans_bold; // Use your preferred older font
     margin: 0 0 .75rem;
     font-size: 1.2rem; // Uniform font size for titles
     letter-spacing: -.05rem;
@@ -241,7 +241,7 @@
     padding: 1rem 0 .2rem;
 
     .header-name {
-      @include sans_bold;
+      @include sans_bold; // Use your preferred older font
       font-size: 2rem;
       margin: 0 0 .2rem;
     }

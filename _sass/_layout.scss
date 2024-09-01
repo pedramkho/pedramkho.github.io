@@ -5,11 +5,14 @@
 
 // Fixed-width, centered container for site content
 .container {
-  width: $container-width; // Global variable defining container width
+  width: $container-width;
   margin-right: auto;
   margin-left: auto;
-  @include clearfix; // Mixin to clear floats (ensure it's defined globally)
+  @include clearfix;
+  font-family: Helvetica, Arial, sans-serif; // Restore the previous font stack
+  text-transform: none; // Ensure text in layout elements is non-caps
 }
+
 
 // Grid System
 // ---------------------------------------/

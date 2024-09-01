@@ -57,7 +57,7 @@
 // Consistent typography settings across the site.
 
 @mixin sans {
-  font-family: "Arial", sans-serif; // Unified font for consistency
+  font-family: Helvetica, Arial, sans-serif; // Restore the previous font stack
 }
 
 @mixin sans_light {
@@ -79,6 +79,7 @@
   @include sans;
   font-weight: 800;
 }
+
 
 @mixin serif {
   font-family: "Lora", "Georgia", serif; // Simplified and consistent serif stack
