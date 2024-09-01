@@ -1,16 +1,19 @@
-# Projects
+# Publications
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+# Are socially-aware trajectory prediction models really socially-aware?
+- project: "Are socially-aware trajectory prediction models really socially-aware?"
+  # role: Co-Author
+  duration: 2022
+  url: "https://www.sciencedirect.com/science/article/pii/S0968090X22001437"
+  authors: "Saadatnejad S., Bahari M., Khorsandi P.*, Saneian M.*, Moosavi-Dezfooli M., Alahi A."
+  description: Published in Elsevier Volume 141. This paper examines the effectiveness of socially-aware trajectory prediction models, evaluating their true awareness of social dynamics.
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+# Do explanations explain the model? Model knows best
+- project: "Do explanations explain the model? Model knows best"
+  # role: Co-Author
+  duration: 2022
+  url: "https://arxiv.org/abs/2203.02269"
+  authors: "Khakzar A.*, Khorsandi P.*, Nobahari R.*, Navab N."
+  description: Presented at CVPR 2022, this paper explores the reliability of explanation methods for neural network decisions and proposes a benchmark for evaluating these methods.
+
