@@ -1,6 +1,6 @@
 # Site settings
 title: "Pedram Khorsandi"
-description: "A resume template for Jekyll and GitHub Pages sites."
+description: "Ph.D. student at Mila – Quebec Institute of Artificial Intelligence specializing in Optimization in Federated Learning and Performative Prediction."
 
 # Build settings
 markdown: kramdown
@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Pedram Khorsandi"
-resume_title:                   "Ph.D. at Mila Institute"
+resume_title:                   "Ph.D. Student at Mila Institute"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "pedram.khorsandi@mila.quebec"
@@ -23,7 +23,7 @@ resume_contact_address:         "000"
 resume_header_contact_info:     ""
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>Hi!! This is Pedram! I recently joined Prof. Simon Lacoste-Julien's team as a Ph.D. candidate. My area of study broadly includes optimization and generalization. </p> <p>Previously, I did my bachelor's in computer sciense and engineering at Sharif Univerisity of Technology.</p>"
+resume_header_intro: "<p>Hi! I'm Pedram Khorsandi, a Ph.D. student at Mila, supervised by Prof. Simon Lacoste-Julien since 2022. My research focuses on Optimization in Federated Learning and Performative Prediction.</p><p>Previously, I completed my undergraduate studies at Sharif University of Technology in Computer Science and Engineering. Outside of research, I enjoy biking.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -48,11 +48,11 @@ resume_social_links:
   resume_github_url:            "https://github.com/pedramkho"
   # resume_twitter_url:           ""
   # resume_dribbble_url:          ""
-  # resume_facebook_url:          "insert Facebook URL here"
+  # resume_facebook_url:          ""
   resume_linkedin_url:          "https://www.linkedin.com/in/pedram-khorsandi-257780150/"
   # resume_instagram_url:         "insert your Instagram URL here"
-  # resume_website_url:           "http://joelglovier.com"
-  # resume_medium_url:            "https://medium.com/@jglovier"
+  # resume_website_url:           "https://pedramkho.github.io"
+  # resume_medium_url:            "https://medium.com/@pedramkho"
 resume_print_social_links:      true
 
 # Design settings
