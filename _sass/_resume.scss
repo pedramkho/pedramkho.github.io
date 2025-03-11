@@ -250,7 +250,7 @@
     padding: 1rem 0 .2rem;
 
     .header-name {
-      @include sans_bold; // Use your preferred older font
+      @include sans_regular; // Use your preferred older font
       font-size: 2rem;
       margin: 0 0 .2rem;
     }
