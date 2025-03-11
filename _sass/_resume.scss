@@ -140,7 +140,7 @@
   width: 220px;
   font-size: 1.375rem;
   @include sans_light; // Use your preferred older font
-  color: #333;
+  color: blue;
   line-height: 55px;
   @include transition(all .2s ease);
   text-transform: none; // Ensure text is non-caps
@@ -190,7 +190,7 @@
   .resume-item-list {
     a {
       font-size: 0.875rem; // Uniform font size for links
-      color: #333;
+      color: green;
       text-decoration: none;
       border-bottom: 1px solid;
 
@@ -222,7 +222,7 @@
 
     > a {
       font-weight: 700;
-      color: #333;
+      color: greenyellow;
     }
   }
 }
@@ -268,7 +268,7 @@
 
   .content-section {
     margin: 0 0 1rem;
-    color: aquamarine; // test
+    color: red; // test
 
     .resume-item {
       margin-bottom: 1rem;
