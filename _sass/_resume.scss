@@ -174,8 +174,8 @@
   }
 
   .resume-item-details {
-    font-size: 1rem;
-    margin: 0 0 .75rem;
+    font-size: .875rem;
+    margin: 0 0 1.5rem;
     line-height: 1;
     text-transform: none; // Ensure text is non-caps
 
@@ -189,7 +189,7 @@
   .resume-item-copy,
   .resume-item-list {
     a {
-      font-size: 1.1rem; // Uniform font size for links
+      font-size: 1.2rem; // Uniform font size for links
       color: $black;
       text-decoration: none;
       border-bottom: 1px solid;
@@ -275,7 +275,8 @@
     }
 
     .resume-item-title {
-      font-size: 16px;
+      font-size: 1.5rem;
+      color: red;
       line-height: .7em;
     }
 
