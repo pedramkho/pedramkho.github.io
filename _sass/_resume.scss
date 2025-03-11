@@ -26,7 +26,7 @@
     max-width: 100%;
     object-fit: cover;
     border-radius: 50%; /* Makes it a circle */
-    border: 5px solid $sagegreen;
+    border: 5px solid $warmterracotta;
     @include border-radius(50%); // Fully rounded avatar
     margin: 0 auto;
     display: block;
@@ -54,14 +54,14 @@
   .header-contact-info p a {
     color: $sagegreen;
     text-transform: none; // Ensure links are non-caps
-  }
+  }     
 
   .title-bar {
     @include section_border;
     margin-top: 2rem;
     padding: .4rem 0;
     @include clearfix;
-    color: $sagegreen; // Use any of your defined colors
+    color: $warmterracotta; // Use any of your defined colors
 
     .header-title {
       @include sans; // Use your preferred older font
@@ -82,7 +82,7 @@
 
   .executive-summary {
     @include media_larger_than_mobile {
-      font-size: 1.125rem;
+      font-size: 1rem;
       margin-top: 1rem; // Added margin for spacing
       text-transform: none; // Ensure text is non-caps
     }
@@ -122,6 +122,9 @@
 
   .icon {
     height: 28px;
+    path {
+      fill: #AF6D50; // Set the default color before hover
+    }
   }
 }
 

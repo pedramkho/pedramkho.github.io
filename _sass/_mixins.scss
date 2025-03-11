@@ -100,13 +100,13 @@
 // Border styles for section dividers.
 
 @mixin section_border {
-  border-top: 4px solid $sagegreen;
-  border-bottom: 2px solid $sagegreen;
+  border-top: 4px solid $warmterracotta;
+  border-bottom: 2px solid $warmterracotta;
   padding: .2rem 0 .4rem;
 }
 
 @mixin section_border_thin {
-  border-top: 1px solid $sagegreen;
-  border-bottom: 1px solid $sagegreen;
+  border-top: 1px solid $warmterracotta;
+  border-bottom: 1px solid $warmterracotta;
   padding: .2rem 0 .2rem;
 }
