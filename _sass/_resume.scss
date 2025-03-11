@@ -61,7 +61,7 @@
     margin-top: 2rem;
     padding: .4rem 0;
     @include clearfix;
-    color: $warmterracotta; // Use any of your defined colors
+    color: $sagegreen; // Use any of your defined colors
 
     .header-title {
       @include sans; // Use your preferred older font
@@ -115,7 +115,7 @@
     display: inline-block;
 
     &:hover .icon path {
-      fill: $sagegreen;
+      fill: $warmterracotta;
       @include transition(all .2s ease);
     }
   }
@@ -124,7 +124,7 @@
     height: 28px;
     path {
       // fill: #AF6D50; // Set the default color before hover
-      fill: $warmterracotta; // Set the default color before hover
+      fill: $sagegreen; // Set the default color before hover
     }
   }
 }
@@ -164,12 +164,13 @@
   }
 
   .resume-item-title {
-    @include sans_bold; // Use your preferred older font
+    @include sans_regular; // Use your preferred older font
     margin: 0 0 .75rem;
     font-size: 1.2rem; // Uniform font size for titles
     letter-spacing: -.05rem;
     line-height: 1;
     text-transform: none; // Ensure text is non-caps
+    color: $sagegreen;
   }
 
   .resume-item-details {
