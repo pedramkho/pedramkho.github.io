@@ -52,15 +52,16 @@
   }
 
   .header-contact-info p a {
-    color: inherit;
+    color: $sagegreen;
     text-transform: none; // Ensure links are non-caps
   }
 
   .title-bar {
     @include section_border;
-    margin-top: 1.75rem;
+    margin-top: 2rem;
     padding: .4rem 0;
     @include clearfix;
+    color: $sagegreen; // Use any of your defined colors
 
     .header-title {
       @include sans; // Use your preferred older font
@@ -127,7 +128,7 @@
 // Contact button
 .contact-button {
   @include border-radius(3px);
-  background-color: #efefef;
+  background-color: $sagegreen;
   text-decoration: none;
   text-align: center;
   display: block;
