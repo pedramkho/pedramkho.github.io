@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Pedram Khorsandi"
-resume_title:                   "Ph.D. Student at Mila Institute"
+resume_title:                   "About"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "pedram.khorsandi@mila.quebec"
