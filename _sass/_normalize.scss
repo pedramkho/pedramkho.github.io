@@ -190,9 +190,12 @@ figure {
 /**
  * Address differences between Firefox and other browsers.
  */
-hr {
+ hr {
   box-sizing: content-box;
-  height: 0;
+  height: 2px; /* Adjust thickness */
+  border: none; /* Removes any default border */
+  background-color: #D4AF37; /* Change to your desired color */
+  width: 100%; /* Ensures full width */
 }
 
 /**

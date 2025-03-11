@@ -26,7 +26,7 @@
     max-width: 100%;
     object-fit: cover;
     border-radius: 50%; /* Makes it a circle */
-    border: 5px solid #9CAEA9;
+    border: 5px solid $sagegreen;
     @include border-radius(50%); // Fully rounded avatar
     margin: 0 auto;
     display: block;
