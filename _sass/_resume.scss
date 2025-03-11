@@ -41,6 +41,7 @@
     line-height: 1.2; // Slightly increased for better readability
     margin: 1rem 0 0;
     text-transform: none; // Ensure text is non-caps
+    color: $deepnavyblue;
   }
 
   .header-contact-info {
@@ -57,7 +58,7 @@
 
   .title-bar {
     @include section_border;
-    margin-top: 2rem;
+    margin-top: 1.75rem;
     padding: .4rem 0;
     @include clearfix;
 
@@ -95,7 +96,7 @@
   position: relative;
   top: 4px;
   text-align: center;
-  border-top: 2px solid #c7c7c7;
+  border-top: 2px solid $sagegreen;
   padding-top: .4rem;
 
   @include media_larger_than_mobile {
@@ -113,7 +114,7 @@
     display: inline-block;
 
     &:hover .icon path {
-      fill: $sagegreen;
+      fill: $warmterracotta;
       @include transition(all .2s ease);
     }
   }
