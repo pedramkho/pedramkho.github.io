@@ -28,7 +28,7 @@
     border-radius: 50%; /* Makes it a circle */
     border: 5px solid #9CAEA9;
     @include border-radius(50%); // Fully rounded avatar
-    margin: 10 auto;
+    margin: 0 auto;
     display: block;
   }
 
