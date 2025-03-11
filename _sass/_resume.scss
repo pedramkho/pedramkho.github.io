@@ -21,8 +21,8 @@
   padding: 1.5rem 0;
 
   .avatar {
-    width: 200px; // Adjusted size for a more natural look
-    height: 200px; // Ensure equal width and height to prevent oval shape
+    width: 300px; // Adjusted size for a more natural look
+    height: 300px; // Ensure equal width and height to prevent oval shape
     max-width: 100%;
     overflow: hidden;
     @include border-radius(50%); // Fully rounded avatar
