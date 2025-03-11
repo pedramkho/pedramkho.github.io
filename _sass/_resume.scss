@@ -34,7 +34,7 @@
 
   .header-name {
     @include sans; // Use your preferred older font
-    font-size: 2.5rem; // Slightly smaller for a more natural look
+    font-size: 1.5rem; // Slightly smaller for a more natural look
     font-weight: 700; // Consistent font weight
     text-align: center;
     letter-spacing: -.10rem;
@@ -113,7 +113,7 @@
     display: inline-block;
 
     &:hover .icon path {
-      fill: #333;
+      fill: $sagegreen;
       @include transition(all .2s ease);
     }
   }
@@ -140,7 +140,7 @@
   text-transform: none; // Ensure text is non-caps
 
   &:hover {
-    background-color: #333;
+    background-color: $sagegreen;
     color: #fff;
   }
 
@@ -189,7 +189,7 @@
 
       &:hover {
         border-bottom: none;
-        color: #9c9c9c;
+        color: $sagegreen;
       }
     }
   }
