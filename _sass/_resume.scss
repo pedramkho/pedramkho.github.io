@@ -61,7 +61,7 @@
     margin-top: 2rem;
     padding: .4rem 0;
     @include clearfix;
-    color: $warmterracotta; // Use any of your defined colors
+    color: $sagegreen; // Use any of your defined colors
 
     .header-title {
       @include sans; // Use your preferred older font
@@ -115,7 +115,7 @@
     display: inline-block;
 
     &:hover .icon path {
-      fill: $warmterracotta;
+      fill: $sagegreen;
       @include transition(all .2s ease);
     }
   }
