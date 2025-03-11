@@ -24,7 +24,7 @@
     width: 270px; // Adjusted size for a more natural look
     height: 270px; // Ensure equal width and height to prevent oval shape
     max-width: 100%;
-    overflow: auto;
+    object-fit: cover;
     @include border-radius(50%); // Fully rounded avatar
     margin: 0 auto;
     display: block;
