@@ -21,11 +21,11 @@
   padding: 1.5rem 0;
 
   .avatar {
-    width: 250px; // Adjusted size for a more natural look
-    height: 250px; // Ensure equal width and height to prevent oval shape
+    width: 270px; // Adjusted size for a more natural look
+    height: 270px; // Ensure equal width and height to prevent oval shape
     max-width: 100%;
-    overflow: hidden;
-    @include border-radius(30%); // Fully rounded avatar
+    overflow: auto;
+    @include border-radius(50%); // Fully rounded avatar
     margin: 0 auto;
     display: block;
   }
