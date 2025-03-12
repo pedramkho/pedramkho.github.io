@@ -17,13 +17,13 @@ resume_title:                   "About"
 resume_contact_email:           "pedram.khorsandi [at] mila.quebec"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "000"
-resume_contact_address:         "000"
+# resume_contact_telephone:       "000"
+# resume_contact_address:         "000"
 
-resume_header_contact_info:     ""
+resume_header_contact_info:     "pedram.khorsandi [at] mila.quebec"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>I am a PhD student at Mila and the University of Montréal, supervised by Simon Lacoste-Julien. My research focuses on optimization in performative setups.</p><p>Before joining Mila, I completed my BSc in Computer Engineering at Sharif University of Technology.</p><p>My work explores convergence properties and optimization techniques in performative setups. I have also worked on few-shot semantic segmentation and socially-aware trajectory prediction.</p><p>I maintain an active interest in theoretical optimization and algorithmic design.</p><p style="font-family: monospace;">pedram.khorsandi [at] mila.quebec</p>"
+resume_header_intro: "<p>I am a PhD student at Mila and the University of Montréal, supervised by Simon Lacoste-Julien. My research focuses on optimization in performative setups.</p><p>Before joining Mila, I completed my BSc in Computer Engineering at Sharif University of Technology.</p><p>My work explores convergence properties and optimization techniques in performative setups. I have also worked on few-shot semantic segmentation and socially-aware trajectory prediction.</p><p>I maintain an active interest in theoretical optimization and algorithmic design.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -47,7 +47,7 @@ resume_section_interests:       true
 resume_social_links:
   resume_github_url:            "https://github.com/pedramkho"
   # resume_twitter_url:           ""
-  # resume_dribbble_url:          ""
+  resume_dribbble_url:          ""
   # resume_facebook_url:          ""
   resume_linkedin_url:          "https://www.linkedin.com/in/pedram-khorsandi-257780150/"
   # resume_instagram_url:         "insert your Instagram URL here"
