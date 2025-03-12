@@ -157,7 +157,7 @@
 
 // Resume content styles
 .content-section {
-  margin: 0 0 2rem;
+  margin: 0 0 2.5rem;
 
   .resume-item {
     margin-bottom: 2rem;
@@ -175,7 +175,7 @@
 
   .resume-item-details {
     font-size: .8rem;
-    margin: 0 0 0;
+    margin: 0 0 0.34rem;
     line-height: 1;
     text-transform: none; // Ensure text is non-caps
 
@@ -202,7 +202,7 @@
   }
 
   .resume-item-copy {
-    margin: 0 0 0; // changed from 0.75rem 0 0;
+    margin: 0 0 0.34rem; // changed from 0.75rem 0 0;
     color: $black;
     font-size: .8rem;
     text-transform: none; // Ensure text is non-caps
