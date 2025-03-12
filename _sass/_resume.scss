@@ -160,7 +160,7 @@
   margin: 0 0 3rem;
 
   .resume-item {
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
   }
 
   .resume-item-title {
@@ -174,8 +174,8 @@
   }
 
   .resume-item-details {
-    font-size: .875rem;
-    margin: 0 0 1.5rem;
+    font-size: .8rem;
+    margin: 0 0 0;
     line-height: 1;
     text-transform: none; // Ensure text is non-caps
 
@@ -202,9 +202,9 @@
   }
 
   .resume-item-copy {
-    margin: 0 0 1.5rem; // changed from 0.75rem 0 0;
+    margin: 0 0 0; // changed from 0.75rem 0 0;
     color: $black;
-    font-size: .875rem;
+    font-size: .8rem;
     text-transform: none; // Ensure text is non-caps
   }
 }
