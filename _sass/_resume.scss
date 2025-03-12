@@ -160,13 +160,13 @@
   margin: 0 0 2.5rem;
 
   .resume-item {
-    margin-bottom: 2rem;
+    margin-bottom: 0.8rem;
   }
 
   .resume-item-title {
     @include sans; // Use your preferred older font
     margin: 0 0 .75rem;
-    font-size: 4.2rem; // Uniform font size for titles
+    font-size: 1.1rem; // title is unimontreal and ...
     letter-spacing: -.05rem;
     line-height: 1;
     text-transform: none; // Ensure text is non-caps
