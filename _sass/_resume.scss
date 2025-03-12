@@ -5,15 +5,18 @@
 .section-header {
   @include section_border;
   margin-bottom: 1.5rem;
+  margin-top: 2rem; // Ensuring alignment with title-bar
 
   h2 {
     @include sans;
-    font-weight: 300; // Consistent font weight
-    font-size: 1.5rem; // Uniform font size
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2rem;
     letter-spacing: -0.05rem;
     color: $sagegreen;
-    margin: 0;
-    text-transform: none; // Ensure text is non-caps
+    text-align: center;
+    margin: 0 0 0.5rem;
+    text-transform: none;
   }
 }
 
@@ -66,7 +69,7 @@
     .header-title {
       @include sans;
       font-weight: 300;
-      font-size: 1rem;
+      font-size: 1.5rem;
       line-height: 2rem;
       letter-spacing: -0.05rem;
       text-align: center;
@@ -82,7 +85,7 @@
 
   .executive-summary {
     @include media_larger_than_mobile {
-      font-size: 1rem;
+      font-size: 0.9rem;
       margin-top: 1rem;
       text-transform: none;
     }
