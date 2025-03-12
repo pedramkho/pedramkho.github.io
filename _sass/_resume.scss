@@ -166,7 +166,7 @@
   .resume-item-title {
     @include sans; // Use your preferred older font
     margin: 0 0 .75rem;
-    font-size: 1.2rem; // Uniform font size for titles
+    font-size: 4.2rem; // Uniform font size for titles
     letter-spacing: -.05rem;
     line-height: 1;
     text-transform: none; // Ensure text is non-caps
@@ -175,7 +175,7 @@
 
   .resume-item-details {
     font-size: .8rem;
-    margin: 0 0 0.34rem;
+    margin: 0 0 0.3rem;
     line-height: 1;
     text-transform: none; // Ensure text is non-caps
 
