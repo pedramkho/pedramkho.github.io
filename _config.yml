@@ -23,7 +23,7 @@ resume_contact_address:         "000"
 resume_header_contact_info:     ""
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>I am a PhD student at Mila and the University of Montréal, supervised by Simon Lacoste-Julien. My research focuses on optimization in performative setups.</p><p>Before joining Mila, I completed my BSc in Computer Engineering at Sharif University of Technology.</p><p>My work explores convergence properties and optimization techniques in performative setups. I have also worked on few-shot semantic segmentation and socially-aware trajectory prediction.</p><p>I maintain an active interest in theoretical optimization and algorithmic design.</p>"
+resume_header_intro: "<p>I am a PhD student at Mila and the University of Montréal, supervised by Simon Lacoste-Julien. My research focuses on optimization in performative setups.</p><p>Before joining Mila, I completed my BSc in Computer Engineering at Sharif University of Technology.</p><p>My work explores convergence properties and optimization techniques in performative setups. I have also worked on few-shot semantic segmentation and socially-aware trajectory prediction.</p><p>I maintain an active interest in theoretical optimization and algorithmic design.</p><p style="font-family: monospace;">pedram.khorsandi [at] mila.quebec</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
