@@ -8,7 +8,7 @@
 
   h2 {
     @include sans;
-    font-weight: 700; // Consistent font weight
+    font-weight: 300; // Consistent font weight
     font-size: 1.75rem; // Uniform font size
     letter-spacing: -.05rem;
     margin: 0;
@@ -202,9 +202,9 @@
   }
 
   .resume-item-copy {
-    margin: 0 0 0.34rem; // changed from 0.75rem 0 0;
+    margin: 0 0 0.3rem; // changed from 0.75rem 0 0;
     color: $black;
-    font-size: .8rem;
+    font-size: .7rem;
     text-transform: none; // Ensure text is non-caps
   }
 }
