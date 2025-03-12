@@ -9,14 +9,12 @@
 
   h2 {
     @include sans;
-    font-weight: 300;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-weight: 300; // Consistent font weight
+    font-size: 1.5rem; // Uniform font size
     letter-spacing: -0.05rem;
     color: $sagegreen;
-    text-align: center;
     margin: 0 0 0.5rem;
-    text-transform: none;
+    text-transform: none; // Ensure text is non-caps
   }
 }
 
