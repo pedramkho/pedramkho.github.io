@@ -11,8 +11,8 @@
 
 # Do explanations explain the model? Model knows best
 - project: "Do explanations explain the model? Model knows best"
-  # role: Co-Author
-  duration: CVPR 2022
+  role: CVPR
+  duration: 2022
   url: "https://arxiv.org/abs/2203.02269"
   # authors: "Khakzar A.*, Khorsandi P.*, Nobahari R.*, Navab N."
   description: This paper explores the reliability of explanation methods for neural network decisions and proposes a benchmark for evaluating these methods.
