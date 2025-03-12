@@ -4,7 +4,7 @@
 // Utility styles
 .section-header {
   @include section_border;
-  margin-bottom: .5rem;
+  margin-bottom: 1.5rem;
   // margin-top: 2rem; // Ensuring alignment with title-bar
 
   h2 {
@@ -13,7 +13,6 @@
     font-size: 1.5rem; // Uniform font size
     letter-spacing: -0.05rem;
     color: $sagegreen;
-    // margin: 0 0 0.5rem;
     text-transform: none; // Ensure text is non-caps
   }
 }
