@@ -5,7 +5,7 @@
 .section-header {
   @include section_border;
   margin-bottom: 1.5rem;
-  margin-top: 2rem; // Ensuring alignment with title-bar
+  // margin-top: 2rem; // Ensuring alignment with title-bar
 
   h2 {
     @include sans;
@@ -193,7 +193,7 @@
       font-size: 1.1rem;
       color: $black;
       text-decoration: none;
-      border-bottom: 1px solid;
+      // border-bottom: 1px solid;
 
       &:hover {
         border-bottom: none;
