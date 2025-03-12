@@ -202,8 +202,9 @@
   }
 
   .resume-item-copy {
-    margin: 0 0 0; // changed from 0.75rem 0 0;
-    color: red;
+    margin: 0 0 1.5rem; // changed from 0.75rem 0 0;
+    color: $black;
+    font-size: .875rem;
     text-transform: none; // Ensure text is non-caps
   }
 }
