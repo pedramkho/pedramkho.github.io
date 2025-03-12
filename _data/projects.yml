@@ -14,7 +14,7 @@
   duration: Elsevier Volume 141 (2022)
   url: "https://www.sciencedirect.com/science/article/pii/S0968090X22001437"
   # authors: "Saadatnejad S., Bahari M., Khorsandi P.*, Saneian M.*, Moosavi-Dezfooli M., Alahi A."
-  description: This work examines the effectiveness of socially-aware trajectory prediction models, evaluating their true awareness of social dynamics.
+  description: Investigates the adversarial robustness of trajectory prediction models by introducing a socially-attended attack that exposes their limitations in collision avoidance. The proposed method applies hard- and soft-attention mechanisms to guide perturbations, revealing gaps in social understanding while also enhancing model performance. 
 
 # Do explanations explain the model? Model knows best
 - project: "Do explanations explain the model? Model knows best"
@@ -22,5 +22,4 @@
   duration: CVPR (2022)
   url: "https://arxiv.org/abs/2203.02269"
   # authors: "Khakzar A.*, Khorsandi P.*, Nobahari R.*, Navab N."
-  description: This paper explores the reliability of explanation methods for neural network decisions and proposes a benchmark for evaluating these methods.
-
+  description: Introduces a framework for evaluating feature attribution methods by leveraging the neural network itself. The framework generates input features that induce specific behaviors in the output, enabling controlled experiments to assess whether an explanation method aligns with key axioms. The evaluation exposes properties and limitations of existing explanation techniques, providing insights into their reliability.
