@@ -1,18 +1,25 @@
 # Publications
 # uncomment the urls if you wish to display them, and add your own URL
+# Tight Lower Bounds and Improved Convergence in Performative Prediction
+- project: "Tight Lower Bounds and Improved Convergence in Performative Prediction"
+  # role: Co-Author
+  duration: Preprint (2024)
+  url: "https://arxiv.org/abs/2412.03671"  # Replace with the actual link if available
+  # authors: "Khorsandi P., Gupta R., Mofakhami M., Lacoste-Julien S., Gidel G."
+  description: This paper extends the Repeated Risk Minimization (RRM) framework by leveraging historical datasets from previous retraining snapshots. It introduces a class of algorithms called Affine Risk Minimizers, proving the tightness of both new and existing bounds in the same regime, and demonstrating empirical improvements in convergence for performative prediction.
 
 # Are socially-aware trajectory prediction models really socially-aware?
 - project: "Are socially-aware trajectory prediction models really socially-aware?"
   # role: Co-Author
-  duration: 2022
+  duration: Elsevier Volume 141 (2022)
   url: "https://www.sciencedirect.com/science/article/pii/S0968090X22001437"
   # authors: "Saadatnejad S., Bahari M., Khorsandi P.*, Saneian M.*, Moosavi-Dezfooli M., Alahi A."
-  description: Published in Elsevier Volume 141. This paper examines the effectiveness of socially-aware trajectory prediction models, evaluating their true awareness of social dynamics.
+  description: This work examines the effectiveness of socially-aware trajectory prediction models, evaluating their true awareness of social dynamics.
 
 # Do explanations explain the model? Model knows best
 - project: "Do explanations explain the model? Model knows best"
-  role: CVPR
-  duration: 2022
+  # role: Co-Author
+  duration: CVPR (2022)
   url: "https://arxiv.org/abs/2203.02269"
   # authors: "Khakzar A.*, Khorsandi P.*, Nobahari R.*, Navab N."
   description: This paper explores the reliability of explanation methods for neural network decisions and proposes a benchmark for evaluating these methods.
